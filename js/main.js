@@ -23,4 +23,4 @@ console.log(
     `La nuova password è: ${nuovaPassword}23`
 );
 
-document.getElementById('my_id').innerHTML = nuovaPassword + "23"
+document.getElementById('my_id').innerHTML = nuovaPassword + "23";
