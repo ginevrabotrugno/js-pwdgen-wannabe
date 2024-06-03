@@ -13,6 +13,14 @@ let cognomeUtente = prompt ("Inserisci qui il tuo cognome");
 
 let colorePreferito = prompt ("Inserisci qui il tuo colore preferito");
 
+// crea nuova password
+
+let nuovaPassword = nomeUtente+cognomeUtente+colorePreferito;
+
 // scrivi sulla pagina nomecognomecolorepreferito23
 
-console.log( "La nuova password è: " + nomeUtente + cognomeUtente + colorePreferito + "23");
+console.log( 
+    `La nuova password è: ${nuovaPassword}23`
+);
+
+document.getElementById('my_id').innerHTML = nuovaPassword + "23"
